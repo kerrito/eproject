@@ -316,7 +316,8 @@ var data=[{
     link6:"detailed.html?id=1022",
     link7:"detailed.html?id=1023",
     link8:"detailed.html?id=1024",
-    title:"",
+    title:"Atlantic Goliath Grouper",
+    img:"asset/img/atlanti-goliath-grouper.jpg",
     detail1:"",
     detail2:""
 
@@ -331,7 +332,8 @@ var data=[{
     link6:"detailed.html?id=1022",
     link7:"detailed.html?id=1023",
     link8:"detailed.html?id=1024",
-    title:"",
+    title:"Atlantic Wolf Fish",
+    img:"asset/img/atlantic_wolffish.jpg",
     detail1:"",
     detail2:""
 
@@ -346,7 +348,8 @@ var data=[{
     link6:"detailed.html?id=1022",
     link7:"detailed.html?id=1023",
     link8:"detailed.html?id=1024",
-    title:"",
+    title:"Northern Atlantic Right Whale",
+    img:"asset/img/north_atlantic_right_whale.jpg",
     detail1:"",
     detail2:""
 
@@ -361,7 +364,8 @@ var data=[{
     link6:"detailed.html?id=1022",
     link7:"detailed.html?id=1023",
     link8:"detailed.html?id=1024",
-    title:"",
+    title:"Atlantic Trumpet Fish",
+    img:"asset/img/atlantic_trumpetfish.jpg",
     detail1:"",
     detail2:""
 
@@ -377,7 +381,8 @@ var data=[{
     link6:"detailed.html?id=1030",
     link7:"detailed.html?id=1031",
     link8:"detailed.html?id=1032",
-    title:"",
+    title:"Blue Shark",
+    img:"asset/img/blue_shark.jpg",
     detail1:"",
     detail2:""
 
@@ -392,7 +397,8 @@ var data=[{
     link6:"detailed.html?id=1030",
     link7:"detailed.html?id=1031",
     link8:"detailed.html?id=1032",
-    title:"",
+    title:"Bull Shark",
+    img:"asset/img/bull_shark.jpg",
     detail1:"",
     detail2:""
 
@@ -407,7 +413,8 @@ var data=[{
     link6:"detailed.html?id=1030",
     link7:"detailed.html?id=1031",
     link8:"detailed.html?id=1032",
-    title:"",
+    title:"Lemon Shark",
+    img:"asset/img/lemon_shark.jpg",
     detail1:"",
     detail2:""
 
@@ -422,7 +429,8 @@ var data=[{
     link6:"detailed.html?id=1030",
     link7:"detailed.html?id=1031",
     link8:"detailed.html?id=1032",
-    title:"",
+    title:"Blacktip Shark",
+    img:"asset/img/blacktip_shark.jpg",
     detail1:"",
     detail2:""
 
@@ -437,7 +445,8 @@ var data=[{
     link6:"detailed.html?id=1030",
     link7:"detailed.html?id=1031",
     link8:"detailed.html?id=1032",
-    title:"",
+    title:"Great White Shark",
+    img:"asset/img/Great_white_shark.jpg",
     detail1:"",
     detail2:""
 
@@ -452,7 +461,8 @@ var data=[{
     link6:"detailed.html?id=1030",
     link7:"detailed.html?id=1031",
     link8:"detailed.html?id=1032",
-    title:"",
+    title:"Great Hammer Shark",
+    img:"asset/img/great_hammer_shark.jpg",
     detail1:"",
     detail2:""
 
@@ -467,7 +477,8 @@ var data=[{
     link6:"detailed.html?id=1030",
     link7:"detailed.html?id=1031",
     link8:"detailed.html?id=1032",
-    title:"",
+    title:"Lonfin Mako Shark",
+    img:"asset/img/longfin_mako_shark.jpg",
     detail1:"",
     detail2:""
 
@@ -482,7 +493,8 @@ var data=[{
     link6:"detailed.html?id=1030",
     link7:"detailed.html?id=1031",
     link8:"detailed.html?id=1032",
-    title:"",
+    title:"Pacific Angle Shark",
+    img:"asset/img/pacific_angle_shark.jpg",
     detail1:"",
     detail2:""
 
@@ -498,7 +510,8 @@ var data=[{
     link6:"detailed.html?id=1038",
     link7:"detailed.html?id=1039",
     link8:"detailed.html?id=1040",
-    title:"",
+    title:"Hour Glass",
+    img:"asset/img/hourglass-dolphin.jpg",
     detail1:"",
     detail2:""
 
@@ -513,7 +526,8 @@ var data=[{
     link6:"detailed.html?id=1038",
     link7:"detailed.html?id=1039",
     link8:"detailed.html?id=1040",
-    title:"",
+    title:"Spinner",
+    img:"asset/img/spinner-dolphin.jpg",
     detail1:"",
     detail2:""
 
@@ -528,7 +542,8 @@ var data=[{
     link6:"detailed.html?id=1038",
     link7:"detailed.html?id=1039",
     link8:"detailed.html?id=1040",
-    title:"",
+    title:"Orcas",
+    img:"asset/img/orcas.jpg",
     detail1:"",
     detail2:""
 
@@ -543,7 +558,8 @@ var data=[{
     link6:"detailed.html?id=1038",
     link7:"detailed.html?id=1039",
     link8:"detailed.html?id=1040",
-    title:"",
+    title:"Short Beaked",
+    img:"asset/img/short_beaked_common_dolphin.jpg",
     detail1:"",
     detail2:""
 
@@ -558,7 +574,8 @@ var data=[{
     link6:"detailed.html?id=1038",
     link7:"detailed.html?id=1039",
     link8:"detailed.html?id=1040",
-    title:"",
+    title:"Amazon River",
+    img:"asset/img/Amazon-river-dolphin - Copy.jpg",
     detail1:"",
     detail2:""
 
@@ -573,7 +590,8 @@ var data=[{
     link6:"detailed.html?id=1038",
     link7:"detailed.html?id=1039",
     link8:"detailed.html?id=1040",
-    title:"",
+    title:"Commerson",
+    img:"asset/img/Commerson-dolphins-Atlantic-Ocean - Copy.jpg",
     detail1:"",
     detail2:""
 
@@ -588,7 +606,8 @@ var data=[{
     link6:"detailed.html?id=1038",
     link7:"detailed.html?id=1039",
     link8:"detailed.html?id=1040",
-    title:"",
+    title:"Bottlrnose",
+    img:"asset/img/Bottlenose-dolphins - Copy.jpg",
     detail1:"",
     detail2:""
 
@@ -603,7 +622,8 @@ var data=[{
     link6:"detailed.html?id=1038",
     link7:"detailed.html?id=1039",
     link8:"detailed.html?id=1040",
-    title:"",
+    title:"Killer",
+    img:"asset/img/killer-whale-spy-Georgia-Strait-Vancouver-Island - Copy.jpg",
     detail1:"",
     detail2:""
 
