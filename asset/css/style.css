@@ -21,9 +21,17 @@
 }
 
 .nav-link {
-    color: #222 !important;
+    color: white !important;
 }
-
+.nav-link:hover{
+    opacity: 0.7;
+}
+.dropdown-item:hover{
+    opacity: 0.6;
+}
+.navbar-toggler:hover{
+    opacity: 0.7;
+}
 .num2 {
     background-color: #3a8fd9;
 }
@@ -49,7 +57,10 @@ a{
     width: 100%;
     height: auto;
 }
-
+.navbar-nav .active{
+    color:white !important;
+    opacity: 0.7 !important;
+}
 ul {
     text-decoration: none;
     list-style-type: none;
@@ -186,4 +197,13 @@ footer .social-links a{
 .card-1{
     height: 200px;
     object-fit: cover;
+}
+/* about img */
+.abu{
+    width: 130px !important;
+    height: 100px !important;
+}
+.abu1{
+    width: 130px !important;
+    height: 200px !important;
 }
