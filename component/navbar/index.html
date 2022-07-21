@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/9e97330921.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            margin: 0;
+            color: white;
+            background-color: rgb(4, 0, 83);
+            font-family: sans-serif;
+            font-size: 20px;
+            list-style: none;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            align-items: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        a {
+            list-style: none;
+            color: white;
+            text-decoration: none;
+        }
+
+        ul {
+            display: flex;
+            margin-left: auto;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: flex;
+            padding: 5px;
+        }
+
+        nav img {
+            padding: 5px 5px 5px 5px;
+        }
+        .btn{
+            margin-left: auto;
+            margin-right: 5px;
+            display: none;
+        }
+
+        @media screen and (max-width:756px) {
+            nav {
+                /* flex-direction:column; */
+                align-items: flex-start;
+                flex-wrap: wrap;
+            }  
+
+            ul {
+                flex-direction: column;
+                margin-left: 0;
+                width: 100%;
+                padding-top: 10px;
+            }
+
+            nav ul li {
+                flex-direction: column;
+            }
+            .btn{
+                /* margin-left: auto;
+                font-size: inherit; */
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+         <div><img src="" alt="">MY LOGO</div>
+        <div class="btn">
+            <button><i class="fa-regular fa-bars"></i></button>
+        </div>
+        <ul>
+           
+            <li class="num"><a href="">HOME</a></li>
+            <li class="num"><a href="">PRODUCT</a></li>
+            <li class="num"><a href="">ABOUT US</a></li>
+            <li class="num"><a href="">CONTACT US</a></li>
+        </ul>
+        
+    </nav>
+
+</body>
+
+</html>
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var i = 0
+        $(".btn").click(function () {
+            if (i == 0) {
+                $(".num").show();
+                i = 1
+            } else {
+                $(".num").hide();
+                i = 0
+            }
+        })
+    })
+</script>

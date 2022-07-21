@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Hompage  */
+
+
+.num1 {
+    background-color: #e83283;
+}
+.navbar{
+    transition: 0.5s;
+}
+.navbar.active{
+    box-shadow: inset 1px 1px rgb(255 255 255 / 20%), inset -1px -1px rgb(255 255 255 / 10%), 1px 3px 24px -1px rgb(0 0 0 / 15%);
+    background-color: transparent;
+    background-image: linear-gradient(125deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.2) 70%);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.num2 {
+    background-color: #3a8fd9;
+}
+
+.num3 {
+    background-color: #39cbfb;
+}
+
+.logo {
+    height: 60px !important;
+    width: 60px !important;
+}
+a{
+    text-decoration: none;
+}
+
+.heading {
+    justify-content: center;
+    text-align: center;
+}
+
+.id-1 {
+    width: 100%;
+    height: auto;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-icon i {
+    width: 20px;
+}
+
+
+.event-1 {
+    margin: (-50px);
+}
+
+
+/* 
+img {
+    width: 100% !important;
+    height: auto !important;
+} */
+
+/* .footer-icon a {
+    font-size: 25px;
+    text-decoration: none;
+} */
+
+.submitbtn {
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #e83283;
+}
+
+#error_message {
+    margin-bottom: 20px;
+    /* background: #fe8b8e; */
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+.title {
+    text-align: center;
+    /* margin: 0 auto 80px; */
+    position: relative;
+    line-height: 60px;
+    /* color: #555; */
+}
+
+.title::after {
+    content: '';
+    background-color: #e83283;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.text-1 {
+    font-size: 15px;
+    color: #f794c0;
+}
+
+.font-p {
+    color: #39cbfb;
+}
+.left-banner {
+    width: 500px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.left-banner h1.display-1{
+    line-height: 75px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:520px) {
+    
+.left-banner {
+    width: 100%;
+}
+
+.left-banner h1.display-1{
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+}
+
+footer{
+    width: 100%;
+    padding: 50px 0;
+}
+footer .logo{
+    font-size: 28px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+footer .logo img{
+    width: 70px;
+    margin-right: 20px;
+}
+footer .social-links a{
+    width: 40px;
+    display: inline-block;
+}
+
+
+/* Gallery Page */
+
+.card-1 img {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.card-img {
+    height: 100% !important;
+    transition: 0.5s;
+}
+
+.card-img:hover {
+    opacity: 0.7;
+}
+/* dolghin shark category cards*/
+.card-1{
+    height: 200px;
+    object-fit: cover;
+}
