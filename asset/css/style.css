@@ -224,3 +224,7 @@ video{
     left: 0;
     object-fit: cover;
 }
+/* our schedule */
+.submarine{
+    transform: scaleX(-1);
+}
