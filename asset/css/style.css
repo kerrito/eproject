@@ -133,7 +133,15 @@ img {
 .font-p {
     color: #39cbfb;
 }
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
 .left-banner {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 500px;
     height: 100vh;
     display: flex;
@@ -206,4 +214,11 @@ footer .social-links a{
 .abu1{
     width: 130px !important;
     height: 200px !important;
+}
+video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
