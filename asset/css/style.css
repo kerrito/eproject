@@ -142,7 +142,7 @@ img {
 .left-banner {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 100px;
     width: 500px;
     height: 100vh;
     display: flex;
@@ -204,7 +204,7 @@ footer .social-links a{
 }
 /* dolghin shark category cards*/
 .card-1{
-    height: 200px;
+    height: 100px;
     object-fit: cover;
 }
 /* about img */
@@ -222,4 +222,5 @@ video{
     position: absolute;
     top: 0;
     left: 0;
+    object-fit: cover;
 }
