@@ -210,10 +210,9 @@ footer .social-links a{
 }
 /* about img */
 .abu{
-    width: 130px !important;
     height: 100px !important;
 }
-@media (max-width:1400) {
+/* @media (max-width:1400) {
     .abu{
         width: 90px !important;
         height: 100px !important;
@@ -222,9 +221,8 @@ footer .social-links a{
         width: 90px !important;
         height: 200px !important;
     }   
-}
+} */
 .abu1{
-    width: 130px !important;
     height: 200px !important;
 }
 video{
