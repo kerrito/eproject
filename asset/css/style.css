@@ -95,15 +95,15 @@ img {
     padding-left: 20px;
     background-color: #e83283;
 }
-
+/* 
 #error_message {
     margin-bottom: 20px;
     /* background: #fe8b8e; */
-    padding: 0px;
+    /* padding: 0px;
     text-align: center;
     font-size: 14px;
     transition: all 0.5s ease;
-}
+} */
 
 .title {
     text-align: center;
