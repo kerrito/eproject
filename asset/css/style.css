@@ -209,8 +209,8 @@ footer .social-links a{
     object-fit: cover;
 }
 /* about img */
-/* .abu{
-    width: 130 !important;
+.abu{
+    width: 130px !important;
     height: 100px !important;
 }
 @media screen and (max-width:1400px) {
@@ -224,9 +224,9 @@ footer .social-links a{
     }   
 }
 .abu1{
-    width: 130 !important;
+    width: 130px !important;
     height: 200px !important;
-} */
+}
 video{
     width: 100%;
     height: 100%;
