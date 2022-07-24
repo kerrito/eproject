@@ -222,3 +222,14 @@ video{
     transform: scaleX(-1);
 }
 /* all pages bg pic */
+
+/* animations */
+.scale-up-hor-left {
+	-webkit-animation: scale-up-hor-left 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+	        animation: scale-up-hor-left 0.7s cubic-bezier(0.645, 0.045, 0.355, 1.000) both;
+}
+
+.focus-in-contract-bck {
+	-webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
