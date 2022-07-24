@@ -11,7 +11,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <script src="https://kit.fontawesome.com/9e97330921.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
     <link rel="stylesheet" href="asset/css/style.css">
+    <style>
+        .abot {
+    width: 100% !important;
+    padding: 150px 0;
+    background-image: url(asset/img/deatailes_bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+@media screen and (max-width:768px){
+    
+.abot {
+    padding: 100px 0;
+}
+}
+    </style>
 
     <title>JENKINSON SEA LIFE</title>
 </head>
@@ -25,6 +41,20 @@
             </button>
         </div>
     </nav>
+    <div class="container-fluid abot mt-0">
+        <h1 class="text-center title">INFO</h1>
+        <div class="row">
+            <div class="col-1 mx-auto">
+        <nav class="" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+              <li class="breadcrumb-item"><a href="index.html">Information</a></li>
+              <li class="breadcrumb-item active" aria-current="page" id="title1">title</li>
+            </ol>
+          </nav>
+        </div>
+        </div>
+        </div>
 
     <div class="container">
         <div class="row ">
@@ -58,7 +88,7 @@
             <div class="col-lg-10 col-md-8 col-sm-12 mt-sm-2">
                 <div class="row">
                     <div class="page-title">
-                        <h1 class="h1 title pt-5" id="pagename">INFO</h1>
+                        <!-- <h1 class="h1 title pt-5" id="pagename">INFO</h1> -->
                         <p class="text-center">Every thing necessary to knwon is here</p>
                     </div>
                     <div class="col-lg-6 col-md-12 col-sm-12  mt-lg-5 mt-sm-2 mt-md-2">
@@ -89,7 +119,7 @@
                         awear of it.We
                         provide tons of information about sea creature and there life.</p>
                 </div>
-                <div class="col-lg-4 col-md-5 col-sm-12 ms-auto text-end">
+                <div class="col-lg-4 col-md-5 col-sm-12 ms-auto text-md-end text-start">
 
                     <div class="mt-1">
                         <a class="pe-2 pe-md-2" href="index.html">Home</a><a class="pe-2 pe-md-2"
@@ -113,7 +143,7 @@
                 <div class="col-lg-5 col-md-6 col-sm-12">
                     <p>&copy; 2022 with Jenkinson, All rights reserved.</p>
                 </div>
-                <div class="col-lg-4 col-md-5 col-sm-12 ms-auto text-end">
+                <div class="col-lg-4 col-md-5 col-sm-12 ms-auto text-md-end text-start">
                     <p><a class="me-3" href="#"> Privacy & Policy</a> <a href="#">Terms</a> </p>
                 </div>
             </div>
@@ -193,6 +223,7 @@
             document.getElementById("link7").href=data[i].link7;
             document.getElementById("link8").href=data[i].link8;
             document.getElementById("title").innerHTML=data[i].title;
+            document.getElementById("title1").innerHTML=data[i].title;
             document.getElementById("img-1").src=data[i].img;
             document.getElementById("desc").innerHTML=data[i].detail1;
             document.getElementById("desc2").innerHTML=data[i].detail2;
