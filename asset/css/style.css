@@ -160,6 +160,8 @@ img {
     
 .left-banner {
     width: 100%;
+    left: 0px;
+    padding-top: 40px;
 }
 
 .left-banner h1.display-1{
