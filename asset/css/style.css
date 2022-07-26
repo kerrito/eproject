@@ -22,12 +22,19 @@
 
 .nav-link {
     color: white !important;
+    transition: 00.1s;
 }
 .nav-link:hover{
     opacity: 0.7;
 }
+.dropdown-item{
+    transition: 0.1s;
+}
 .dropdown-item:hover{
     opacity: 0.6;
+}
+.navbar-toggler{
+    transition: 0.1s;
 }
 .navbar-toggler:hover{
     opacity: 0.7;
@@ -71,10 +78,10 @@ ul {
     width: 20px;
 }
 
-
+/* 
 .event-1 {
     margin: (-50px);
-}
+} */
 
 
 /* 
