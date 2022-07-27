@@ -63,3 +63,7 @@ var link=window.location.href;
             document.getElementById("desc2").innerHTML=data[i].detail2;
         }
     }
+
+
+    // rating
+    
