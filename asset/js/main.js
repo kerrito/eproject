@@ -65,5 +65,8 @@ var link=window.location.href;
     }
 
 
-    // rating
+    // sumit
+    // $(document).ready(function(){
+    //     $(".tage").OnClick()
+    // })
     

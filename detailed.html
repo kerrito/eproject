@@ -132,7 +132,7 @@
                             Instead, embryos live off of energy obtained from yolk sacs, and only after the juveniles
                             are able to survive on their own does the mother give birth to her young (1-4 pups per
                             litter). This low reproductive potential, along with their natural rarity, contributes to
-                            experts considering spotted eagle rays as ‘near threatened, with extinction. This species is
+                            experts considering spotted eagle rays as near threatened, with extinction. This species is
                             not directly targeted by commercial fisheries, but it is captured as accidental bycatch in
                             fisheries targeting other species. Furthermore, it is occasionally captured alive to be
                             displayed in public aquariums. Worldwide populations are declining, and careful monitoring
@@ -145,12 +145,12 @@
         <div class="row">
             <div class="col-md-4 col-sm-12 mx-auto">
                 <h1 class="title mt-3">REVIEW</h1>
-                <p class="mb-3 text-center">Help us so we can satisify your needs bu review us</p>
-                <form class="myform">
+                <p class="mb-3 text-center">Help us so we can satisfy your needs bu review us</p>
+                <form class="myform" onsubmit="alert('Thank you for your feedback')">
                     <div class="form-group">
-                        <textarea class="form-control w-100" rows="3" placeholder="Review Us Here"></textarea>
+                        <textarea class="form-control w-100" pattern="[a-zA-Z0-9./\&!@#%^&*(*)$ ]{10,}" rows="3" placeholder="Review Us Here" required></textarea>
                     </div>
-                    <div class="text-end">
+                    <div class="text-end mb-5">
                         <button type="submit" class="btn btn-outline-primary text-secondary border-0 mt-3">Submit <i
                                 class="fa-solid fa-arrow-right-long ms-1"></i></button>
                     </div>
@@ -280,13 +280,21 @@
     for (var i = 0; i < data.length; i++) {
         if (data[i].id == id) {
             document.getElementById("pagename").innerHTML = data[i].name;
+            document.getElementById("link1").innerHTML = data[i].linkname1;
             document.getElementById("link1").href = data[i].link1;
+            document.getElementById("link2").innerHTML = data[i].linkanme2;
             document.getElementById("link2").href = data[i].link2;
+            document.getElementById("link3").innerHTML = data[i].linkname3;
             document.getElementById("link3").href = data[i].link3;
+            document.getElementById("link4").innerHTML = data[i].linkname4;
             document.getElementById("link4").href = data[i].link4;
+            document.getElementById("link5").innerHTML = data[i].linkname5;
             document.getElementById("link5").href = data[i].link5;
+            document.getElementById("link6").innerHTML = data[i].linkname6;
             document.getElementById("link6").href = data[i].link6;
+            document.getElementById("link7").innerHTML = data[i].linkname7;
             document.getElementById("link7").href = data[i].link7;
+            document.getElementById("link8").innerHTML = data[i].linkname8;
             document.getElementById("link8").href = data[i].link8;
             document.getElementById("title").innerHTML = data[i].title;
             document.getElementById("img-1").src = data[i].img;
