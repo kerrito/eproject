@@ -1,14 +1,14 @@
 // marque
 function doDate() {
-    var tazteam = "";
+    var arsh = "";
 
     var dd = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
     var mm = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
     var now = new Date();
 
-    tazteam += dd[now.getDay()] + ", " + now.getDate() + " " + mm[now.getMonth()] + " " + now.getFullYear() + " " + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
-    document.getElementById("time").innerHTML = tazteam;
+    arsh += dd[now.getDay()] + ", " + now.getDate() + " " + mm[now.getMonth()] + " " + now.getFullYear() + " " + now.getHours() + ":" + now.getMinutes() + ":" + now.getSeconds();
+    document.getElementById("time").innerHTML = arsh;
 }
 
 setInterval(doDate, 1000);
@@ -16,7 +16,7 @@ setInterval(doDate, 1000);
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition);
 } else {
-    x.innerHTML = "Geolocation is not supported by this browser.";
+    document.getElementById("location").innerHTML = "Geolocation is not supported by this browser.";
 }
 
 
